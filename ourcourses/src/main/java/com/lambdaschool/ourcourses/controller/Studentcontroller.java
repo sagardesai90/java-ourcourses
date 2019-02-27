@@ -19,6 +19,7 @@ public class Studentcontroller
     @Autowired
     Studentrepository studrepos;
 
+    // /students/students
     @GetMapping("/students")
     public List<Student> listAllStudents()
     {

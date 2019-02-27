@@ -14,6 +14,7 @@ public class Instructor
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long instructid;
 
+    @Column(name = "instructname")
     private String instructname;
 
     @OneToMany(mappedBy = "instructor")
